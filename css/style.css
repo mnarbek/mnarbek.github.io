@@ -7189,11 +7189,6 @@ body {
   padding: 70px 0;
 }
 
-.main-tools .container {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
 .main-tools h1 {
   font-family: Roboto;
   font-style: normal;
@@ -7204,6 +7199,29 @@ body {
   text-transform: uppercase;
   color: #202737;
   margin-bottom: 66px;
+}
+
+.main-tools a {
+  text-decoration: none;
+}
+
+.main-tools-item {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon-circle {
@@ -7225,6 +7243,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 22px;
 }
 
 .icon-circle--blue {
@@ -7336,6 +7355,20 @@ footer {
 }
 
 .footer-bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-copyright {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -7362,6 +7395,308 @@ hr.footer-divider {
   line-height: 23px;
   color: #ffffff;
   width: 208px;
+  margin-right: 40px;
+}
+
+.footer-contacts p {
+  display: inline-block;
+}
+
+.footer-contacts svg,
+.footer-contacts span {
+  vertical-align: middle;
+}
+
+.footer-contacts svg {
+  margin-right: 5px;
+}
+
+.footer-phone-number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.footer-phone-desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+}
+
+.footer-apps {
+  margin-left: auto;
+}
+
+.footer-apps .download-apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-social-icons {
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+.footer-social-icons li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.auth-modal .modal-header {
+  height: 55px;
+  border-bottom: none;
+  padding: 25px 30px 8px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.auth-modal .modal-header .close {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+}
+
+.auth-modal .modal-content {
+  width: 470px;
+  height: 470px;
+  border-radius: 7px;
+}
+
+.auth-modal h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  color: #202737;
+  margin-bottom: 25px;
+}
+
+.auth-modal .modal-body {
+  padding: 0px 60px 25px 60px;
+  text-align: center;
+}
+
+.auth-modal .form-control {
+  height: 36px;
+}
+
+.auth-modal input.form-control {
+  margin-bottom: 30px;
+  border: 2px solid #bdc3c7;
+  border-style: none none solid none;
+  border-radius: 0;
+}
+
+.auth-modal input::-webkit-input-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  color: #999999;
+}
+
+.auth-modal input::-moz-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+
+.auth-modal input:-ms-input-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #999999;
+}
+
+.auth-modal input::-ms-input-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #999999;
+}
+
+.auth-modal input::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #999999;
+}
+
+.auth-modal input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #bdc3c7;
+  color: #999999;
+}
+
+.auth-modal__enter-btn {
+  background: #f58a1f;
+  border-radius: 12px;
+  width: 100%;
+  padding: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.auth-modal__enter-btn:hover {
+  background: #c96706;
+  color: #ffffff;
+}
+
+.auth-modal__reminder-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #009ade;
+}
+
+.auth-modal__register-btn {
+  background: #009ade;
+  border-radius: 12px;
+  min-width: 230px;
+  padding: 14px;
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.auth-modal__register-btn:hover {
+  background: #006e9d;
+  color: #ffffff;
+}
+
+.auth-modal .modal-footer {
+  min-height: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.ecp-modal .modal-content {
+  width: 470px;
+  height: 625px;
+}
+
+.ecp-modal__radio-block {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #626570;
+}
+
+.ecp-modal__radio-block .custom-radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ecp-modal .custom-control-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #626570;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 576px) {
